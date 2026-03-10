@@ -62,7 +62,7 @@ nav{
   grid-template-columns:1fr 1fr;
   padding-top:64px;
 }
-.hero-left{
+.hero-left{display:flex !important;visibility:visible !important;
   display:flex;flex-direction:column;justify-content:center;
   padding:60px 52px 60px 44px;
   background:#fff;
@@ -351,7 +351,7 @@ footer{
 .footer-copy{font-size:.78rem;color:rgba(245,240,232,.28);}
 
 /* REVEAL */
-.reveal{opacity:0;transform:translateY(28px);transition:opacity .7s ease,transform .7s ease;}
+.reveal{opacity:1;transform:none;transition:opacity .7s ease,transform .7s ease;}
 .reveal.visible{opacity:1;transform:none;}
 
 /* =====================
@@ -367,7 +367,7 @@ footer{
     padding-top:60px;
     min-height:auto;
   }
-  .hero-left{
+  .hero-left{display:flex !important;visibility:visible !important;
     padding:48px 24px 44px;
     order:1;
   }
